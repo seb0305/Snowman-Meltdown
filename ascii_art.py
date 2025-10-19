@@ -1,6 +1,6 @@
-# Snowman ASCII Art stages
+# Snowman ASCII Art stages (expanded to 7 for smoother melting)
 STAGES = [
-    # Stage 0: Full snowman
+    # 0: Full snowman
     """
      ___  
     /___\\ 
@@ -8,22 +8,41 @@ STAGES = [
     ( : ) 
     ( : ) 
     """,
-    # Stage 1: Bottom part starts melting
+    # 1
+    """
+     ___  
+    /___\\ 
+    (o o) 
+    ( : ) 
+    (  )  
+    """,
+    # 2
     """
      ___  
     /___\\ 
     (o o) 
     ( : ) 
     """,
-    # Stage 2: Only the head remains
+    # 3
     """
      ___  
     /___\\ 
     (o o) 
     """,
-    # Stage 3: Snowman completely melted
+    # 4
     """
      ___  
     /___\\ 
+    ( - ) 
+    """,
+    # 5
+    """
+     ___  
+    /___\\ 
+    """,
+    # 6: Melted base only
+    """
+     _    
+    /_\\   
     """
 ]
